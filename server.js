@@ -7,8 +7,7 @@ const usersRoutes = require('./routes/Users');
 const paymentRoutes = require('./routes/Payment');
 // PORT
 const port = process.env.PORT;
-const mongoURI =
-  'mongodb+srv://minixliplol1:6P2n92eMtSVt6Qab@cluster0.rftwlma.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
+const mongoURI = process.env.MONGOURI;
 
 //express app
 const app = express();
