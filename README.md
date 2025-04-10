@@ -1,5 +1,6 @@
 markdown
 Copy code
+
 # MJ Entertainment
 
 MJ Entertainment is a web-based ticketing system designed for the final year students at Ravensbourne University to organize an end-of-year graduation party. This system allows students to register, make reservations, and handle payments for themselves and their guests. The system is built using modern web technologies for a responsive, secure, and user-friendly experience.
@@ -38,30 +39,33 @@ MJ Entertainment is a web-based ticketing system designed for the final year stu
 To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/yourusername/mj-entertainment.git
-    cd mj-entertainment
-    ```
+
+   ```bash
+   git clone https://github.com/yourusername/mj-entertainment.git
+   cd mj-entertainment
+   ```
 
 2. **Install dependencies**:
-    ```bash
-    npm install
-    cd client
-    npm install
-    cd ..
-    ```
+
+   ```bash
+   npm install
+   cd client
+   npm install
+   cd ..
+   ```
 
 3. **Set up environment variables**:
-    Create a `.env` file in the root directory and add the following variables:
-    ```plaintext
-    MONGODB_URI=your_mongodb_uri
-    JWT_SECRET=your_jwt_secret
-    ```
+   Create a `.env` file in the root directory and add the following variables:
+
+   ```plaintext
+   MONGODB_URI=your_mongodb_uri
+   JWT_SECRET=your_jwt_secret
+   ```
 
 4. **Run the application**:
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
 
 ## Usage
 
@@ -125,3 +129,9 @@ Push to the branch (git push origin feature-branch)
 Create a Pull Request
 License
 This project is licensed under the MIT License. See the LICENSE file for detail
+
+
+PORT=4000
+MONGOURI="HBAJKHDBAHD"
+SECRET="CHICKEN"
+```
